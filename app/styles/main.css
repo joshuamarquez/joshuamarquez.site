@@ -5,14 +5,33 @@
   padding: 0.2em 0;
 }
 
+.icon-github{
+  background-image:url('../images/github.png');
+  background-repeat:no-repeat;
+  width:24px;
+  height:24px;
+  display:inherit;
+  margin-bottom:-6px;
+  margin-left:9px;
+  margin-right:-10px
+}
+
+.progress-bar{
+  background-color: #3C3C3C;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 
 body {
-  background: #000;
+  background: #fff;
   color: #ADADAD;
   position: relative;
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
+}
+
+.content{
+  color: #000;
 }
 
 h1, h2 {
@@ -21,6 +40,15 @@ h1, h2 {
 
 h3 span {
   color: #286090;
+}
+
+.scrollspy{
+  top: 20px;
+}
+
+.twitter{
+  line-height: 25px;
+  margin-top: 20px;  
 }
 
 .jumbotron {
@@ -35,7 +63,6 @@ h3 span {
 
 section {
   padding: 40px 0;
-  border-bottom: 1px solid #ADADAD;
 }
 
 #web-development,
@@ -48,22 +75,22 @@ section:last-child {
 }
 
 .nav {
-  /*background: #4baac8;*/
+  background: #fff;
 }
 
 .nav a {
-  color: #fff;
-  font-style: italic;
+  color: #000;
+  font-style: normal;
 }
 
 .nav li a:hover,
 .nav li a:focus {
-  background: rgba(173, 173, 173, 0.3);
+  background: #F4F4F4;
 }
 
 .nav .active {
   font-weight: bold;
-  background: #6E6E6E;
+  background: rgba(173, 173, 173, 0.3);
 }
 
 .nav .nav {
@@ -119,7 +146,7 @@ section:last-child {
 }
 
 footer {
-  border-top: 1px solid #c1e1ec;
+  border-top: 1px solid #D7D7D7;
   height: 50px;
 }
 

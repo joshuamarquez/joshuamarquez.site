@@ -1,7 +1,7 @@
-# joshuamarquez.github.io
+# joshuamarquez.site
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+This project is generated with [generator-webapp](https://github.com/yeoman/generator-webapp)
+version 0.5.1.
 
 ## Build & development
 

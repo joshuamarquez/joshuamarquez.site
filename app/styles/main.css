@@ -20,6 +20,14 @@
   background-color: #3C3C3C;
 }
 
+.main {
+  font-weight: bold;
+}
+
+.description {
+  color: rgb(56, 56, 56);
+}
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 
 body {
